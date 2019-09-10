@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/login")
 public class LoginAction {
+
     @RequestMapping("/toLogin")
     public String toLogin(){
         return "index";
